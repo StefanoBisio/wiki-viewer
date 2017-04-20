@@ -1,3 +1,7 @@
+#output a {
+  color: #292b2c;
+}
+
 .form-control {
     border-radius: 20px;
 }
@@ -24,8 +28,8 @@ body {
 .footer {
     padding-right: 1rem;
     padding-left: 1rem;
+    
 }
-
 
 /* Custom page header */
 
@@ -83,6 +87,9 @@ body {
 
 .marketing {
     margin: 3rem 0;
+  padding-top:3rem;
+      border-top: .05rem solid #e5e5e5;
+
 }
 
 .marketing p+h4 {
@@ -109,4 +116,8 @@ body {
         border-bottom: 0;
         border-radius: 20px
     }
+}
+
+#search {
+  margin-top:10px;
 }
